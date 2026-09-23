@@ -1,0 +1,85 @@
+body {
+ background: url('../images/Background.png') no-repeat center top fixed;
+ background-color: #000000;
+ background-size: 1536px;
+ color:#ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+.cadre {
+	 margin-left: auto;
+    margin-right: auto;
+    width: 1536px;
+    height: 194px;
+}
+.logo {
+   padding-top: 25px;
+   padding-left: 46px;
+   float: left;
+   width: 744px; /* The width is 60%, by default */
+}
+.cadre2 {
+	 margin-left: auto;
+    margin-right: auto;
+    width: 1536px;
+    height: 542px;
+}
+.cadre-button {
+	 padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1125px;
+    height: 542px;
+}
+.button {
+  float: left;
+  width: 375px; /* The width is 20%, by default */
+}
+.cadre3 {
+	 margin-left: auto;
+    margin-right: auto;
+    width: 1536px;
+    height: 99px;
+}
+.cadre-link {
+	 padding-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1125px;
+    height: 99px;
+}
+.facebook {
+  padding-left: 101px;
+  float: left;
+  width: 375px; /* The width is 20%, by default */
+}
+.patreon {
+  padding-left: 22px;
+  float: left;
+  width: 375px; /* The width is 20%, by default */
+}
+.mmf {
+  padding-left: -48px;
+  float: left;
+  width: 375px; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.imgAbout img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.imgAbout img:hover {
+  opacity: 0.6;
+}
